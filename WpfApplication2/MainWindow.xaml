@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="Цифровий підпис" Height="350" Width="329">
+    <Grid>
+        <Button x:Name="button" Content="Згенерувати ключі" HorizontalAlignment="Left" Height="54" Margin="0,265,0,0" VerticalAlignment="Top" Width="321" BorderBrush="White" Foreground="#FF798FE6" FontSize="20" FontFamily="Arial" Click="button_Click" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF9DC6D8" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="250" Margin="110,10,0,0" VerticalAlignment="Top" Width="105" Source="Resources/Screenshot_1.jpg" />
+    </Grid>
+</Window>

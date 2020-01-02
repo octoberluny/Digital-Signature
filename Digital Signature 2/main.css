@@ -1,0 +1,42 @@
+﻿* {
+    margin: 0 auto;
+}
+
+.body-container {
+    max-width: 1200px;
+}
+
+.jumbotron-fluid {
+    margin: 0 !important;
+
+}
+
+.jumbotron {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #9dc6d8;
+    font-family:'Exo 2', sans-serif;
+    text-align: center;
+}
+
+#goHome button {
+    font-family: "Raleway";
+    position: fixed;
+    bottom: 52px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ff5d55;
+    font-weight: 700;
+    color: #fff;
+}
+
+#goHome button:focus {
+    outline: none;
+}
+
+#goHome button:hover {
+    cursor: pointer;
+}

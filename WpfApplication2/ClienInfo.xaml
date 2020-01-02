@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApplication2.ClienInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="Інформація про власника" Height="334" Width="300">
+    <Grid>
+        <Button x:Name="button" Content="ОК" HorizontalAlignment="Left" Height="22" Margin="226,262,0,0" VerticalAlignment="Top" Width="50" Click="button_Click" Background="#FF9DC6D8" BorderThickness="0" Foreground="#FFF9F0DA"/>
+        <Label x:Name="label" Content="Відкритий ключ" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="#FF607A85"/>
+        <Label x:Name="label1" Content="Фамілія" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Foreground="#FF607A85"/>
+        <Label x:Name="label2" Content="Ім'я" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Foreground="#FF607A85"/>
+        <Label x:Name="label3" Content="По батькові" HorizontalAlignment="Left" Height="26" Margin="10,103,0,0" VerticalAlignment="Top" Width="96" Foreground="#FF607A85"/>
+        <GroupBox x:Name="groupBox" Header="Оберіть" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Height="83" Width="117" Foreground="#FF607A85"></GroupBox>
+        <Label x:Name="label4" Content="Номер залікової книжки" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Foreground="#FF607A85" Visibility="Hidden"/>
+        <Label x:Name="label5" Content="Посада" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Foreground="#FF607A85" Visibility="Hidden"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="22" Margin="112,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164" BorderBrush="#FF607A85" BorderThickness="2" Foreground="#FF607A85"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="91,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" BorderBrush="#FF607A85" BorderThickness="2" Foreground="#FF607A85"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="91,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" BorderBrush="#FF607A85" BorderThickness="2" Foreground="#FF607A85"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="91,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" BorderBrush="#FF607A85" BorderThickness="2" Foreground="#FF607A85"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="156,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="#FF607A85" BorderThickness="2" Foreground="#FF607A85" Visibility="Hidden"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="65,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="#FF607A85" BorderThickness="2" Foreground="#FF607A85" Visibility="Hidden"/>
+        <Button x:Name="button1" Content="Назад" HorizontalAlignment="Left" Height="22" Margin="10,262,0,0" VerticalAlignment="Top" Width="50" Click="button1_Click" Background="#FF9DC6D8" BorderThickness="0" Foreground="#FFF9F0DA"/>
+        <Button x:Name="button2" Content="Студент" HorizontalAlignment="Left" Margin="27,157,0,0" VerticalAlignment="Top" Width="77" Click="button2_Click" Background="{x:Null}" BorderBrush="#FF607A85" Foreground="#FF607A85" BorderThickness="1"/>
+        <Button x:Name="button3" Content="Працівник" HorizontalAlignment="Left" Margin="27,186,0,0" VerticalAlignment="Top" Width="77" Background="{x:Null}" BorderBrush="#FF607A85" Click="button3_Click" Foreground="#FF607A85" BorderThickness="1"/>
+
+    </Grid>
+</Window>
